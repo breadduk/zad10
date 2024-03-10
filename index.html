@@ -5,53 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
-            font-size: 30px;
-            background-color: navy;
-        }
+        header{
+	background:#829EB9;
+	height: 50px;
+	font-family: Arial;
+	text-align: center;
+}
 
-        .dash {
-            background-color: #89CFF0;
-            border: 4px solid blue;
-            border-radius: 10px;
-            border-style: dashed;
-            text-align: center;
-            padding: 10px;
-        }
+nav{
+	background: #B3C6D9;
+	height: 600px;
+	width: 25%;
+	float: left;
+}
 
-        .dot {
-            background-color: #89CFF0;
-            border: 4px solid blue;
-            border-radius: 10px;
-            border-style: dotted;
-            text-align: center;
-            padding: 10px;
-        }
+main{
+	background: #E0E9F1;
+	height: 600px;
+	width: 75%;
+	text-align: center;
+	float: left
+}
 
-        .znak1 {
-            background-color: red;
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            position: relative;
-        }
-
-        .znak2 {
-            background-color: white;
-            position: absolute;
-            left: 10px;
-            top: 80px;
-            width: 180px;
-            height: 40px;
-        }
+footer{
+	background: #829EB9;
+	font-family: Arial;
+	text-align: right;
+	clear: both;
+}
     </style>
 </head>
 <body>
-    <button class="dash">Dash border button</button>
-    <button class="dot"> Dotted Border Button</button>
-    <p> </p>
-    <div class="znak1">
-        <div class="znak2"></div>
-    </div>
+    <header>
+			<h1><a href="index.html">Sprawdź swoje hasło</a></h1>
+		</header>
+		<nav>
+			<h2>Wybierz</h2>
+			<ol>
+				<li><a href="haslo.html">Sprawdź hasło</a></li>
+				<li><a href="zasady.html"> Zasady tworzenia hasła</a></li>
+			</ol>
+		</nav>
+		<main>
+			<img src="haslo.png" alt="obraz haslo"/>
+		</main>
+		<footer>
+		<h3>Miernik jakości hasła </h3>
+		<p> Stronę opracował: 00000000016</p>
+		</footer>
+	</body>
 </body>
 </html>
